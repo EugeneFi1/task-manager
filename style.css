@@ -1,0 +1,54 @@
+.name {
+    text-align: right;
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+.name input {
+    margin-left: 20px;
+}
+.name span{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+}
+.tasks_field {
+    margin: 50px;
+    padding: 20px;
+    /*width: 50%;*/
+}
+.add_task {
+    margin-bottom: 40px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.task {
+    font-size: x-large;
+    border-bottom: 1px solid gray;
+}
+.green {
+    background-color: green;
+}
+.task div{
+    text-align: right;
+}
+#new_task{
+    width: 300px;
+}
+.login {
+    width: 170px;
+    margin: auto;
+}
+#login_button {
+    margin-top: 10px;
+}
+.registr {
+    margin-top: 30px;
+    text-align: center;
+}
+#reg_button {
+    margin-top: 30px;
+}
+.red{
+    color: red;
+}
