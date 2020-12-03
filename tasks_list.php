@@ -8,9 +8,9 @@
         $delete = '"'.$content['task'].'"';
         echo("<div class='task' id='".$id_task."'>".$content['task']."<div>
         <input type='button' id='done_button' value='done'
-        onclick='doneTaskS(".$id_task.")'>
+                onclick='doneTaskS(".$id_task.")'>
         <input type='button' id='button' value='delete'
-        onclick='deleteTaskS(".$delete.")'></div></div>");
+                onclick='deleteTaskS(".$delete.")'></div></div>");
         $id_task++;
     }
 ?>
