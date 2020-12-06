@@ -1,5 +1,6 @@
 <?php
-    $link = mysqli_connect('localhost', 'root', '', 'task');
+    $link = mysqli_connect('ec2-52-30-161-203.eu-west-1.compute.amazonaws.com', 'aaralnfqzhnoen', 'e68d5f793d1935324567a5fa8031cff587883dfc309d4f6c9d32e7571215dc45'
+                           , 'd5lhec7gtdtm0h');
 
     $getLogins = getUsersLogins($link);
     
