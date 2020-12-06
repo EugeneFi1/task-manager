@@ -58,7 +58,7 @@
         return $result;
     }
     function addUser($login, $password, $name, $link){
-        $sql = "INSERT INTO users(`login`, `password`, `name`) VALUES ('".$login."', '".$password."','".$name."')";
+        $sql = "INSERT INTO users(login, password, name) VALUES ('".$login."', '".$password."','".$name."')";
         $query = mysqli_query($link, $sql);
     }
     function getTasks($id, $link){
